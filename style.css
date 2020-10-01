@@ -150,7 +150,7 @@ html{
 .banner button{
     width: 25rem;
     height: 7rem;
-    background-color: #c29525;
+    background-color: #a52a2a;
     border: none;
     font-family: "Muli", serif;
     font-size: 2rem;
@@ -209,7 +209,7 @@ html{
     position: absolute;
 top:0;
 left:0;
-color: #c29525;
+color: #a52a2a;
 width:0;
 overflow: hidden;
 white-space: nowrap;
@@ -222,30 +222,6 @@ transition: width 0.3s ease-in-out;
 
 
 
-.social-media{
-    position: absolute;
-    bottom: 3rem;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-
-}
-.social-media i{
-    font-size: 2.2rem;
-    margin: 3rem;
-    width: 4.5rem;
-    height: 4.5rem;
-    background-color: #777;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    transition: background-color 0.3s;
-}
-.social-media i:hover{
-    background-color: #c29552;
-}
 
 .about-us{
     width: 100%;
@@ -524,7 +500,7 @@ max-width: 45rem;
 .submit-btn{
     width: 45rem;
     height: 5rem;
-    background-color: #c29525;
+    background-color: #697e8a;
     color: #eee;
     border: none;
     margin-top: 2rem;
@@ -557,31 +533,8 @@ max-width: 45rem;
     color: #a7a7a7;
 }
 
-.social-list a{
-    margin: 0.2rem;
 
-}
 
-.social-list i{
-    font-size: 2rem;
-    color: #a7a7a7;
-}
-
-.scroll-btn{
-    position: fixed;
-    right: 5rem;
-    bottom: 5rem;
-    width: 4.5rem;
-    height: 4.5rem;
-    background-color: #e2b646;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    color: #fff;
-    box-shadow: 0 0.1rem 0.6rem rgba(0,0,0, 0.2);
-    border-radius: 0.3rem;
-}
 
 @media(max-width: 1500px){
     .about-us-img-wrapper{
